@@ -1,0 +1,42 @@
+Arguments: 
+  /home/khuongtran/.nvm/versions/node/v16.9.1/bin/node /home/khuongtran/.nvm/versions/node/v16.9.1/bin/yarn add express jsonwebtoken argon2 cors mongoose dontenv
+
+PATH: 
+  /home/khuongtran/.nvm/versions/node/v16.9.1/bin:/home/khuongtran/.local/bin:/home/khuongtran/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.9.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dontenv: Not found
+      at Request.params.callback [as _callback] (/home/khuongtran/.nvm/versions/node/v16.9.1/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at Request.self.callback (/home/khuongtran/.nvm/versions/node/v16.9.1/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/home/khuongtran/.nvm/versions/node/v16.9.1/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/home/khuongtran/.nvm/versions/node/v16.9.1/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "khuong",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

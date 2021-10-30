@@ -1,0 +1,91 @@
+POST http://localhost:4000/api/auth/register
+Content-Type: Application/json
+
+
+{
+    "username": "23@yahoo.com",
+    "password": "1234",
+    "avatar": "a"
+}
+
+
+###
+POST http://localhost:4000/api/auth/login
+content-type: application/json
+
+
+{
+    "username": "24@yahoo.co",
+    "password": "1234"
+}
+
+
+
+###
+POST http://localhost:4000/api/posts
+content-type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTQ4NmQ4M2NkNjFkOWExMTI3MTc5NDQiLCJpYXQiOjE2MzIxMzY1ODR9.69ZJHbhIgz3105oUhk94ckl5Q7NiB-HTk-PyXNre2VI
+
+{
+    "title": "test post1",
+    "url": "youtube.com"
+}
+
+
+
+###
+GET http://localhost:4000/api/posts/post/user/61531a06612e4ca069da3441
+# Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTUzMWEwNjYxMmU0Y2EwNjlkYTM0NDEiLCJpYXQiOjE2MzMyNTEyMjF9.42qtmymZ7y50A3iByYPS1EqREHdPQ3keOGifi60XugU
+
+###
+GET http://localhost:4000/api/posts?limit=1
+# Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTUzMWEwNjYxMmU0Y2EwNjlkYTM0NDEiLCJpYXQiOjE2MzMyNTExMDh9.mP4lybFW3Rz9zp6yJVi1AwRB0RwocqL2tL3ipoQ2hIY
+
+
+###
+PUT http://localhost:4000/api/posts/6151f16193666e938242d6ae
+Content-MD5: 
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTQ4NmQ4M2NkNjFkOWExMTI3MTc5NDQiLCJpYXQiOjE2MzIxMzY1ODR9.69ZJHbhIgz3105oUhk94ckl5Q7NiB-HTk-PyXNre2VI
+
+{
+    "title": "test update1",
+    "url": ""
+}
+
+###
+DELETE http://localhost:4000/api/posts/61486daacd61d9a112717947
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTQ4NmQ4M2NkNjFkOWExMTI3MTc5NDQiLCJpYXQiOjE2MzIxMzY1ODR9.69ZJHbhIgz3105oUhk94ckl5Q7NiB-HTk-PyXNre2VI
+
+
+###
+POST http://localhost:4000/api/posts/comment/61542e90b3185e847b961422
+content-type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTUzMWEwNjYxMmU0Y2EwNjlkYTM0NDEiLCJpYXQiOjE2MzI5OTg3Mjh9.JrYtrSYV_NsqKKrTHPd9OyuQla_Y2BItsHP1OWd9vCs
+
+{
+    "content": "post nay hay qua"
+}
+
+
+
+###
+GET http://localhost:4000/api/auth/getuser
+
+
+
+###
+POST http://localhost:4000/api/posts/notification
+content-type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTQ4NmQ4M2NkNjFkOWExMTI3MTc5NDQiLCJpYXQiOjE2MzM1OTg0ODN9.6shOLNcyZvdTvGcRyhhoxhKhdjAdA3z4uHXC11_BPuA
+
+{
+    "message" : "test notification now 1",
+    "receiverId": "6148503ffd8aed4453922e59"
+}
+
+###
+GET http://localhost:4000/api/posts/notification
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTU5OGEzMTdjNDlhYTE0ZmY4ZTE5NzYiLCJpYXQiOjE2MzM2ODU3NTZ9.wttsBFv5Jv_-xkJjG47H6NdUeDNET6qx-VdRfTZnR-Y
+
+###
+GET http://localhost:4000/api/auth/search?search=aaaa

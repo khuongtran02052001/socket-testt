@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": [ "esnext"],
+      "allowJs": false,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "typeRoots" : ["./src/types", "./node_modules/@types"],
+      "outDir": "dist",
+      "isolatedModules": false
+    },
+    "include": ["src/**/*.ts", "src/routes/auth.js"],
+    "exclude": ["node_modules"]
+  }
+  

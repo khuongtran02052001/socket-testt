@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sm:block dark:text-black' w-full md:w-1/6  text-sm hidden"
+>
+  <div
+    className="p-4 bg-white rounded-lg shadow-lg"
+  >
+    <span
+      className="mx-1 font-bold text-blue-600 cursor-pointer"
+    >
+      DEV Community
+    </span>
+    <span
+      className="font-bold"
+    >
+      is a community of 697,706 amazing developers
+    </span>
+    <br />
+    <br />
+    <span
+      className="my-7"
+    >
+      We're a place where coders share, stay up-to-date and grow their careers.
+    </span>
+    <div
+      className="p-2 my-2 text-center text-blue-600 bg-white rounded-md cursor-pointer hover:bg-gray-300"
+      onClick={[Function]}
+    >
+      <button>
+        Login
+      </button>
+    </div>
+    <div
+      className="p-2 my-5 text-center text-white bg-blue-500 rounded-md cursor-pointer"
+      onClick={[Function]}
+    >
+      <button>
+        Create new account
+      </button>
+    </div>
+  </div>
+  <div
+    className="block text-center transition-all transform bg-white border-2 border-gray-400 shadow-md hover:scale-110 border-ridge my-7 "
+  >
+    <div
+      className="relative cursor-pointer "
+    >
+      <img
+        className="w-10 h-10 m-auto"
+        src="https://logopond.com/logos/5d50b7e780862243f64312c7c282e654.png"
+      />
+      <p
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Home
+      </p>
+    </div>
+  </div>
+  <div
+    className="block text-center transition-all transform bg-white border-2 border-gray-400 shadow-md hover:scale-110 border-ridge my-7 "
+  >
+    <div
+      className="relative cursor-pointer "
+      onClick={[Function]}
+    >
+      <img
+        className="w-8 h-8 m-auto"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAk_4GzoANPRm6D5sKl8ZtAy8KT7mrpAeC-Q&usqp=CAU"
+      />
+      <p
+        className=""
+      >
+        SignIn/SignUp
+      </p>
+    </div>
+  </div>
+  <div
+    className="flex justify-center w-1/5 p-2 m-auto my-5 text-center text-white bg-black rounded-full cursor-pointer"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <button
+      className="flex"
+    >
+      <svg
+        className="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

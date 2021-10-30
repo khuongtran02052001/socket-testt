@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="hidden text-sm dark:text-black lg:w-1/6 sm:block md:w-1/6 2xl:w-1/6"
+>
+  <div
+    className="text-center"
+  >
+    <div
+      className="p-4 bg-white rounded-lg shadow-lg "
+    >
+      <img
+        className="m-auto w-28 h-28"
+        src="https://res.cloudinary.com/practicaldev/image/fetch/s--EDoP9zp7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://res.cloudinary.com/practicaldev/image/fetch/s--otY2jCJh--/c_fill%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_420/https://dev-to-uploads.s3.amazonaws.com/uploads/podcast/image/235/08786d8b-7ef4-4c00-bc40-f4b3cbca5834.jpg"
+      />
+      <span
+        className="font-bold "
+      >
+        Listen to DevDiscuss S6E6!
+      </span>
+      <p
+        className="text-xs"
+      >
+        VS Code & the Extended VS Code Universe
+      </p>
+    </div>
+  </div>
+  <div
+    className="flex justify-center p-2 my-5 text-center text-white bg-blue-500 rounded-md cursor-pointer"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <button
+      className="flex"
+    >
+      See More
+      <svg
+        className="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
